@@ -3,7 +3,12 @@ guid: 20c042073104f07499f77de5ed2dd9ea
 ModelImporter:
   serializedVersion: 22200
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: ColumbianMammouth
+    second: {fileID: 2100000, guid: 68b3627afa2a0114f9e18955fa4552c6, type: 2}
   materials:
     materialImportMode: 2
     materialName: 0

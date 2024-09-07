@@ -3,7 +3,12 @@ guid: cea3b38afa160b14280e568959496686
 ModelImporter:
   serializedVersion: 22200
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Harlans_Ground_Sloth
+    second: {fileID: 2100000, guid: 4d94b733ea9cf2e46a3e3677b0836aea, type: 2}
   materials:
     materialImportMode: 2
     materialName: 0

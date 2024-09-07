@@ -3,7 +3,12 @@ guid: daec0c6892deec141befec40cf98cc8a
 ModelImporter:
   serializedVersion: 22200
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: MountainPuma
+    second: {fileID: 2100000, guid: d7ad0edb7ec063b42933445d0e2e6e60, type: 2}
   materials:
     materialImportMode: 2
     materialName: 0
