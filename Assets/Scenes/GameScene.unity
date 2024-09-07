@@ -921,8 +921,16 @@ MonoBehaviour:
   - {fileID: 919132149155446097, guid: 59c2f909d971d294cac6fd01e8018b32, type: 3}
   - {fileID: 919132149155446097, guid: 4c1c2f1375a9a004c9a08f4caf5bab12, type: 3}
   - {fileID: 919132149155446097, guid: d2ef2d79676116d4bb2f34adff5b6653, type: 3}
-  SpawnAmount: 200
-  MaxIterations: 1000
+  - {fileID: 919132149155446097, guid: c55e0a7789b18ae488e78544ae34716f, type: 3}
+  - {fileID: 2705816250802405186, guid: 372653b62c8e2f041b115762e7cf4c9f, type: 3}
+  - {fileID: -4210176760438712212, guid: 372653b62c8e2f041b115762e7cf4c9f, type: 3}
+  - {fileID: 4494118042208886839, guid: 372653b62c8e2f041b115762e7cf4c9f, type: 3}
+  - {fileID: 5310591416829175808, guid: 372653b62c8e2f041b115762e7cf4c9f, type: 3}
+  - {fileID: 7836880117057183291, guid: 372653b62c8e2f041b115762e7cf4c9f, type: 3}
+  - {fileID: 7228849165554181583, guid: 372653b62c8e2f041b115762e7cf4c9f, type: 3}
+  - {fileID: 5905734959366818351, guid: 372653b62c8e2f041b115762e7cf4c9f, type: 3}
+  SpawnAmount: 500
+  MaxIterations: 50
   SpawnLocations: 3
   Labels: 9
   CheckOverlaps: 1
@@ -930,7 +938,7 @@ MonoBehaviour:
   LayerMask:
     serializedVersion: 2
     m_Bits: 4294967295
-  SurfaceClearanceDistance: 0.1
+  SurfaceClearanceDistance: 0.05
 --- !u!4 &736403246
 Transform:
   m_ObjectHideFlags: 0

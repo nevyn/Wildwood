@@ -225,6 +225,9 @@ public class FindSpawnPositions2 : MonoBehaviour
         }
 
         Quaternion spawnRotation = Quaternion.FromToRotation(Vector3.up, spawnNormal);
+        /// this is custom
+        spawnRotation *= Quaternion.Euler(0, Random.Range(0, 180), 0);
+
         if (CheckOverlaps && prefabBounds.HasValue)
         {
             if (Physics.CheckBox(spawnPosition + spawnRotation * adjustedBounds.center, adjustedBounds.extents, spawnRotation, LayerMask, QueryTriggerInteraction.Ignore))
@@ -235,6 +238,7 @@ public class FindSpawnPositions2 : MonoBehaviour
 
         if (spawnObject.gameObject.scene.path == null)
         {
+            Transform trans = transform;
             Instantiate(spawnObject, spawnPosition, spawnRotation, transform);
             return SpawnStatus.Success;
         }
