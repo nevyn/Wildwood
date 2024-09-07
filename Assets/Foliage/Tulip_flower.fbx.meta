@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: c55fabd7029fd6b469ae7921fbf70d78
+guid: a027d20d3d89d2e449e0e7270962cd4c
 ModelImporter:
   serializedVersion: 22200
   internalIDToNameTable: []
@@ -7,10 +7,15 @@ ModelImporter:
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
-      name: defaultMat
-    second: {fileID: 2100000, guid: e784cb3acadbde44ab1d2482e96b4e06, type: 2}
+      name: M_Ground
+    second: {fileID: 2100000, guid: 2e17f12156f827c449a071ace9e703f3, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: M_TulipFlower
+    second: {fileID: 2100000, guid: 5fc5831aeefa29c4c972c2ec884f5841, type: 2}
   materials:
-    materialImportMode: 1
+    materialImportMode: 2
     materialName: 0
     materialSearch: 1
     materialLocation: 1
