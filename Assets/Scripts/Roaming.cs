@@ -44,7 +44,8 @@ public class Roaming : MonoBehaviour
         }
         if(hasValidDestination)
         {
-            agent.SetDestination(destination);
+            if(agent.isOnNavMesh)
+                agent.SetDestination(destination);
         }
         if (Vector3.Distance(transform.position, destination) < 0.01f)
         {
